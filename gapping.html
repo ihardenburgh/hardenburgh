@@ -75,10 +75,6 @@
         <symbol id="circle-fill" viewBox="0 0 17 17">
             <circle cx="8" cy="8" r="8"/>
         </symbol>
-        <symbol id="eye" viewBox="0 0 17 17">
-            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
-            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
-        </symbol>
         <symbol id="eyeglasses" viewBox="0 0 17 17">
             <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A2 2 0 0 0 8 6c-.532 0-1.016.208-1.375.547M14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/>
         </symbol>
@@ -152,12 +148,17 @@
                     </div>
                     <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
                         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
-                            <span>Swing</span>
+                            <span>Swing/Stroke</span>
                         </h6>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="golf.html">
-                                    <svg class="bi"><use xlink:href="#journal-text""/></svg>Log
+                                    <svg class="bi"><use xlink:href="#journal-text"/></svg>Log
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="feel.html">
+                                    <svg class="bi"><use xlink:href="#hand-index"/></svg>Feel
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -207,28 +208,14 @@
                         </ul>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <a class="nav-link d-flex align-items-center gap-2" href="terminology.html">
                                     <svg class="bi"><use xlink:href="#textarea-t"/></svg>Terminology
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center gap-2" href="#">
-                                    <svg class="bi"><use xlink:href="#eye"/></svg>Watch
                                 </a>
                             </li>
                         </ul>
                         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
                             <span>Numbers</span>
                         </h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center gap-2" href="#">
-                                    <svg class="bi"><use xlink:href="#map"/></svg>Courses
-                                </a>
-                            </li>
-                        </ul>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link d-flex align-items-center gap-2" href="gapping.html">
@@ -238,8 +225,8 @@
                         </ul>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center gap-2" href="#">
-                                    <svg class="bi"><use xlink:href="#bar-chart-line"/></svg>Stats
+                                <a class="nav-link d-flex align-items-center gap-2" href="https://www.ghin.com/" target="_blank">
+                                    <svg class="bi"><use xlink:href="#journal"/></svg>GHIN
                                 </a>
                             </li>
                         </ul>
@@ -291,11 +278,6 @@
                         <hr class="my-3">
                         <ul class="nav flex-column mb-auto">
                             <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center gap-2" href="https://www.ghin.com/" target="_blank">
-                                    <svg class="bi"><use xlink:href="#journal"/></svg>GHIN
-                                </a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link d-flex align-items-center gap-2" href="reservation.html">
                                     <svg class="bi"><use xlink:href="#telephone"/></svg>Reservation
                                 </a>
@@ -306,7 +288,7 @@
             </div>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h3 class="h3">Gapping</h3>
+                    <h3 class="h3">Numbers › Gapping</h3>
                 </div>
                 <div class="list-group">
                     <div class="list-group-item flex-column align-items-start">
@@ -397,7 +379,7 @@
                               </tr>
                             </tbody>
                         </table>
-                        <div class="text-muted" style="font-size: 13px">	* When hitting a driver, your "average" male golfer will have a club speed somewhere in the low nineties (MPH). A "good" golfer's club speed is going to be a bit over 100 MPH, while a "tour pro" golfer's average will be upwards of 110 MPH. One can estimate the club speed for every club less than driver based on these benchmarks.</div>
+                        <div class="text-muted" style="font-size: 13px">* When hitting a driver, your "average" male golfer will have a club speed somewhere in the low nineties (MPH). A "good" golfer's club speed is going to be a bit over 100 MPH, while a "tour pro" golfer's average will be upwards of 110 MPH. One can estimate the club speed for every club less than driver based on these benchmarks.</div>
                     </div>
                     <div class="list-group-item flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
@@ -414,74 +396,302 @@
                             </thead>
                             <tbody>
                               <tr>
-                                <th scope="row">Driver *</th>
-                                <td>230</td>
-                                <td>265</td>
-                                <td>305</td>
+                                <th scope="row">Driver</th>
+                                <td>11°</td>
+                                <td>152</td>
+                                <td>251</td>
                               </tr>
                               <tr>
                                 <th scope="row">3 Wood</th>
-                                <td>215</td>
-                                <td>235</td>
-                                <td>275</td>
+                                <td>9°</td>
+                                <td>144</td>
+                                <td>221</td>
                               </tr>
                               <tr>
                                 <th scope="row">5 Wood</th>
-                                <td>200</td>
-                                <td>220</td>
-                                <td>260</td>
+                                <td>9°</td>
+                                <td>138</td>
+                                <td>209</td>
                               </tr>
                               <tr>
                                 <th scope="row">3 Iron</th>
-                                <td>190</td>
-                                <td>210</td>
-                                <td>240</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">4 Iron</th>
-                                <td>180</td>
-                                <td>200</td>
-                                <td>230</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">5 Iron</th>
-                                <td>170</td>
-                                <td>190</td>
-                                <td>220</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">6 Iron</th>
-                                <td>155</td>
-                                <td>175</td>
+                                <td>10°</td>
+                                <td>129</td>
                                 <td>205</td>
                               </tr>
                               <tr>
+                                <th scope="row">4 Iron</th>
+                                <td>11°</td>
+                                <td>125</td>
+                                <td>193</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5 Iron</th>
+                                <td>12°</td>
+                                <td>120</td>
+                                <td>185</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6 Iron</th>
+                                <td>14°</td>
+                                <td>115</td>
+                                <td>176</td>
+                              </tr>
+                              <tr>
                                 <th scope="row">7 Iron</th>
-                                <td>140</td>
-                                <td>165</td>
-                                <td>195</td>
+                                <td>16°</td>
+                                <td>109</td>
+                                <td>166</td>
                               </tr>
                               <tr>
                                 <th scope="row">8 Iron</th>
-                                <td>130</td>
-                                <td>155</td>
-                                <td>180</td>
+                                <td>18°</td>
+                                <td>105</td>
+                                <td>156</td>
                               </tr>
                               <tr>
                                 <th scope="row">9 Iron</th>
-                                <td>120</td>
-                                <td>140</td>
-                                <td>165</td>
+                                <td>20°</td>
+                                <td>99</td>
+                                <td>145</td>
                               </tr>
                               <tr>
                                 <th scope="row">PW</th>
-                                <td>105</td>
-                                <td>125</td>
-                                <td>150</td>
+                                <td>24°</td>
+                                <td>93</td>
+                                <td>135</td>
                               </tr>
                             </tbody>
                         </table>
-                        <div class="text-muted" style="font-size: 13px">	* When hitting a driver, your "average" male golfer will have a club speed somewhere in the low nineties (MPH). A "good" golfer's club speed is going to be a bit over 100 MPH, while a "tour pro" golfer's average will be upwards of 110 MPH. One can estimate the club speed for every club less than driver based on these benchmarks.</div>
+                        <div class="text-muted" style="font-size: 13px">* Launch angle is determined by the club loft and a healthy attack angle, both of which are predetermined by the manufacturer of a club and a golfer's ability, respectively. Still, with all things being equal, the launch angles given in the chart above are decent estimates based on clubs that an avid golfer might use.<br>** Ball speeds and carry distances were adjusted off of stats captured by TrackMan on PGA Tour pros. However, not all ball speeds listed should be considered ideal. Although a golfer's ball speed should vary from one club to the next—steadily increasing as one approaches the less lofted and longer shafted clubs—one's personal ball speed should be bent on the maximum amount of club speed one can generate without sacrificing shot accuracy. Print out this chart to input your own ball speed and carry distances, but note how the launch angles listed are more prescriptive. Still, given the idea that club loft varies from one manufacturer to the next, adjusting some angles slightly up/down may be warranted.</div>
+                    </div>    
+                    <div class="list-group-item flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Driver Speed, Launch & Spin</h5>
+                        </div>
+                        <img src="image/driver-speed-launch-spin.webp">
+                    </div>
+                    <div class="list-group-item flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Club Head Speed and Distance</h5>
+                        </div>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">60</th>
+                                <th scope="col">70</th>
+                                <th scope="col">80</th>
+                                <th scope="col">90</th>
+                                <th scope="col">93 *</th>
+                                <th scope="col">100</th>
+                                <th scope="col">106 **</th>
+                                <th scope="col">110</th>
+                                <th scope="col">113 ***</th>
+                                <th scope="col">120</th>
+                                <th scope="col">130</th>
+                                <th scope="col">140</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Driver Total</th>
+                                <td>157</td>
+                                <td>183</td>
+                                <td>209</td>
+                                <td>235</td>
+                                <td>246</td>
+                                <td>262</td>
+                                <td>274</td>
+                                <td>288</td>
+                                <td>293</td>
+                                <td>314</td>
+                                <td>330</td>
+                                <td>366</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Driver Carry</th>
+                                <td>147</td>
+                                <td>172</td>
+                                <td>196</td>
+                                <td>221</td>
+                                <td>236</td>
+                                <td>246</td>
+                                <td>255</td>
+                                <td>270</td>
+                                <td>275</td>
+                                <td>295</td>
+                                <td>319</td>
+                                <td>344</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3 Wood</th>
+                                <td>130</td>
+                                <td>152</td>
+                                <td>174</td>
+                                <td>185</td>
+                                <td>195</td>
+                                <td>217</td>
+                                <td>230</td>
+                                <td>239</td>
+                                <td>243</td>
+                                <td>260</td>
+                                <td>282</td>
+                                <td>304</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5 Wood</th>
+                                <td>123</td>
+                                <td>144</td>
+                                <td>164</td>
+                                <td>175</td>
+                                <td>185</td>
+                                <td>205</td>
+                                <td>218</td>
+                                <td>226</td>
+                                <td>230</td>
+                                <td>246</td>
+                                <td>267</td>
+                                <td>288</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Hybrid</th>
+                                <td>121</td>
+                                <td>141</td>
+                                <td>161</td>
+                                <td>181</td>
+                                <td>191</td>
+                                <td>201</td>
+                                <td>213</td>
+                                <td>221</td>
+                                <td>225</td>
+                                <td>241</td>
+                                <td>261</td>
+                                <td>281</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3 Iron</th>
+                                <td>114</td>
+                                <td>133</td>
+                                <td>151</td>
+                                <td>170</td>
+                                <td>180</td>
+                                <td>189</td>
+                                <td>201</td>
+                                <td>208</td>
+                                <td>212</td>
+                                <td>227</td>
+                                <td>246</td>
+                                <td>265</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4 Iron</th>
+                                <td>109</td>
+                                <td>127</td>
+                                <td>145</td>
+                                <td>163</td>
+                                <td>169</td>
+                                <td>181</td>
+                                <td>192</td>
+                                <td>199</td>
+                                <td>203</td>
+                                <td>218</td>
+                                <td>236</td>
+                                <td>254</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5 Iron</th>
+                                <td>104</td>
+                                <td>121</td>
+                                <td>139</td>
+                                <td>156</td>
+                                <td>161</td>
+                                <td>173</td>
+                                <td>184</td>
+                                <td>191</td>
+                                <td>194</td>
+                                <td>208</td>
+                                <td>225</td>
+                                <td>243</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6 Iron</th>
+                                <td>98</td>
+                                <td>114</td>
+                                <td>131</td>
+                                <td>147</td>
+                                <td>152</td>
+                                <td>163</td>
+                                <td>173</td>
+                                <td>180</td>
+                                <td>183</td>
+                                <td>196</td>
+                                <td>212</td>
+                                <td>229</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7 Iron</th>
+                                <td>92</td>
+                                <td>108</td>
+                                <td>123</td>
+                                <td>138</td>
+                                <td>141</td>
+                                <td>154</td>
+                                <td>163</td>
+                                <td>169</td>
+                                <td>172</td>
+                                <td>184</td>
+                                <td>200</td>
+                                <td>215</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8 Iron</th>
+                                <td>86</td>
+                                <td>100</td>
+                                <td>114</td>
+                                <td>129</td>
+                                <td>135</td>
+                                <td>143</td>
+                                <td>151</td>
+                                <td>157</td>
+                                <td>160</td>
+                                <td>171</td>
+                                <td>186</td>
+                                <td>200</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9 Iron</th>
+                                <td>79</td>
+                                <td>93</td>
+                                <td>106</td>
+                                <td>119</td>
+                                <td>125</td>
+                                <td>132</td>
+                                <td>140</td>
+                                <td>145</td>
+                                <td>148</td>
+                                <td>159</td>
+                                <td>172</td>
+                                <td>185</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">PW</th>
+                                <td>73</td>
+                                <td>85</td>
+                                <td>97</td>
+                                <td>109</td>
+                                <td>115</td>
+                                <td>121</td>
+                                <td>129</td>
+                                <td>134</td>
+                                <td>139</td>
+                                <td>146</td>
+                                <td>158</td>
+                                <td>170</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        <div class="text-muted" style="font-size: 13px">* LPGA Tour&nbsp;&nbsp;&nbsp;&nbsp;** PGA Tour Champions&nbsp;&nbsp;&nbsp;&nbsp;*** PGA Tour</div>
                     </div>
                 </div>
             </main>
